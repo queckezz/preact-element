@@ -34,16 +34,22 @@ With `preact-element` installed (using your favourite package manager), you can
 then import it. Each [element](https://github.com/wooorm/html-tag-names/blob/4604477c3762b7df87536480fb453a9dd7feaaf0/index.json)
 in the DOM is exposed as a function when requiring `preact-element`.
 
+**Plain commonjs**
+
 ```js
 const h = require('preact-element') // -> h.div()
 ```
+
+**Destructuring**
 
 ```js
 const { div, h1 } = require('preact-element')
 ```
 
+**ES6**
+
 ```js
-import { div, h1 }  = require('preact-element')
+import { div, h1 } from 'preact-element'
 ```
 
 ### Use it!
@@ -71,9 +77,9 @@ render(
 
 `attributes` and `children` are **optional**.
 
-### createElement(tag, attributes?, ...children?)
+### `createElement(tag, attributes?, ...children?)`
 
-### [tag](attributes?, ...children?)
+### `[tag](attributes?, ...children?)`
 
 Where as `tag` is one of the [html tags](https://github.com/wooorm/html-tag-names) or [svg tags](https://github.com/wooorm/svg-tag-names).
 
@@ -84,17 +90,17 @@ Authored and maintained by Fabian Eichenberger with help from contributors ([lis
 
 > GitHub [@queckezz](https://github.com/queckezz) · Twitter [@queckezz](https://twitter.com/queckezz)
 
-[travis-image]: https://img.shields.io/travis/queckezz/preact-hyperscript.svg?style=flat-square
-[travis-url]: https://travis-ci.org/queckezz/preact-hyperscript
+[travis-image]: https://img.shields.io/travis/queckezz/preact-element.svg?style=flat-square
+[travis-url]: https://travis-ci.org/queckezz/preact-element
 
-[version-image]: https://img.shields.io/npm/v/preact-hyperscript.svg?style=flat-square
-[version-url]: https://npmjs.org/package/preact-hyperscript
+[version-image]: https://img.shields.io/npm/v/preact-element.svg?style=flat-square
+[version-url]: https://npmjs.org/package/preact-element
 
-[david-image]: http://img.shields.io/david/queckezz/preact-hyperscript.svg?style=flat-square
-[david-url]: https://david-dm.org/queckezz/preact-hyperscript
+[david-image]: http://img.shields.io/david/queckezz/preact-element.svg?style=flat-square
+[david-url]: https://david-dm.org/queckezz/preact-element
 
 [standard-image]: https://img.shields.io/badge/code-standard-brightgreen.svg?style=flat-square
 [standard-url]: https://github.com/feross/standard
 
-[license-image]: http://img.shields.io/npm/l/preact-hyperscript.svg?style=flat-square
+[license-image]: http://img.shields.io/npm/l/preact-element.svg?style=flat-square
 [license-url]: ./license
