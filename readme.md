@@ -16,6 +16,11 @@
 
 ## Why not preact's [`h`](https://github.com/developit/preact/blob/master/src/h.js)?
 
+Creating and reading dom structures is the *bread and butter* in creating UI.
+It should have **minimal** boilerplate. Thats what this library does -
+**removing boilerplate.**
+
+
 ```js
 // preact
 h('div', null,
