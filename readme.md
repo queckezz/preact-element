@@ -12,7 +12,7 @@
 ## Why?
 
 * You want to use preact with no build tool
-* You are not in favor of [extending the language](https://facebook.github.io/jsx/) with non-standard extensions
+* You are not in favor of [extending the language](https://facebook.github.io/jsx/) with non-standard syntax
 
 ## Why not preact's [`h`](https://github.com/developit/preact/blob/master/src/h.js)?
 
