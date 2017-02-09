@@ -1,6 +1,6 @@
 {
   "name": "preact-element",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A better element creation function (`h`) for preact",
   "main": "dist.js",
   "scripts": {
