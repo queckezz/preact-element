@@ -1,0 +1,34 @@
+{
+  "name": "preact-element",
+  "version": "1.0.0",
+  "description": "A better element creation function (`h`) for preact",
+  "main": "dist.js",
+  "scripts": {
+    "release": "npm run lint && xyz -m X.Y.Z",
+    "test": "ava",
+    "lint": "standard",
+    "prepublish": "buble index.js > dist.js"
+  },
+  "keywords": [
+    "preact",
+    "element"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/queckezz/preact-element"
+  },
+  "author": "queckezz <fabian.eichenberger@gmail.com>",
+  "dependencies": {
+    "html-tag-names": "^1.1.0",
+    "preact": "^7.2.0",
+    "svg-tag-names": "^1.1.0"
+  },
+  "devDependencies": {
+    "ava": "^0.18.1",
+    "buble": "^0.15.2",
+    "preact-render-to-string": "^3.5.0",
+    "standard": "^9.0.0-beta.0",
+    "tsml": "^1.0.1"
+  }
+}
